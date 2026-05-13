@@ -1,0 +1,34 @@
+.manage-items {
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #dee9e4;
+}
+.left-Col {
+    flex: 0.7;
+    text-align: center;
+    border: 1px solid #100f0f;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    background-color: #decdcd91;
+    padding: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    height: 100%;
+    box-sizing: border-box;
+}
+.right-Col {
+    flex: 0.3;
+    text-align: center;
+    font-weight: bold;
+    background-color: #decdcd91;
+    padding: 16px;
+    border: 1px solid #0c0c0c;
+    border-radius: 8px;
+    height: 100%;
+    box-sizing: border-box;
+}
